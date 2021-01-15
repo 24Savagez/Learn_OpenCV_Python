@@ -30,11 +30,11 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, clf):
                 cv2.putText(img, "Cherprnag", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
             else:
                 cv2.putText(img, "Unknow", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
-        #if id == 2:
-            #if con <= 35:
-                #cv2.putText(img, "Bill Gates", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
-            #else:
-                #cv2.putText(img, "Unknow", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
+        # if id == 2:
+        # if con <= 35:
+        # cv2.putText(img, "Bill Gates", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
+        # else:
+        # cv2.putText(img, "Unknow", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
 
         # show percent
         if (con < 100):
